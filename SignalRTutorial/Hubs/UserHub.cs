@@ -4,7 +4,7 @@ namespace SignalRTutorial.Hubs;
 
 public class UserHub : Hub
 {
-    public static int TotalViews { get; set; } = 0; // Test
+    public static int TotalViews { get; set; } = 0;
     public static int TotalUsers { get; set; } = 0;
 
     public override Task OnConnectedAsync()
